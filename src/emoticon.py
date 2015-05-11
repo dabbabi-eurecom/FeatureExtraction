@@ -25,7 +25,7 @@ while l:
         emo_score_list[l2[i]]=l2[len(l2)-1]
     l=fi.readline()
 #print len(emo_score_list)
-#for i in emo_score_list.keys():
+for i in emo_score_list.keys():
     print i+"   :   "+str(emo_score_list[i])
 
 
