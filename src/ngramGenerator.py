@@ -30,7 +30,8 @@ def ngramText(filename): # generate vector of ngrams in text file
 def sortList(x):
     return list(reversed(sorted(x, key=operator.itemgetter(1))))
 
-#def suvDict(d,k): # extract k most frequent words
+def mostFreqList(l,k): # extract k most frequent words from the sorted list
+    return l[0:k]
 
 
 filename="../data/tweets.txt"
